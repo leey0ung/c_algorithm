@@ -4,10 +4,6 @@
 /*
 *KMP法のNEXTをもとめる
 */
-
-int* compnext(char *pattern,int pat_len);
- 
-
 int* compnext(char *pattern, int pat_len){
   char *s = pattern;
   int *next = (int*)malloc(pat_len*sizeof(int));
